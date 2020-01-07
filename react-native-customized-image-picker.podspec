@@ -1,0 +1,11 @@
+Pod::Spec.new do |spec|
+    spec.name         = "react-native-customized-image-picker"
+    spec.version      = '0.1.10'
+    spec.license      = { :type => 'MIT' }
+    spec.homepage     = 'https://github.com/shijingsh/react-native-customized-image-picker'
+    spec.authors      = { 'Ivan Pusic' }
+    spec.source       = { :git => 'https://github.com/shijingsh/react-native-customized-image-picker.git' }
+    spec.source_files = 'ios/**/*.{h,m}'
+  
+    spec.dependency 'React'
+  end
