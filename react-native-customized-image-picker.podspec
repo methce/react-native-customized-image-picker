@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
     spec.homepage     = 'https://github.com/shijingsh/react-native-customized-image-picker'
     spec.authors      = { 'Ivan Pusic' => 'liukefu2050@sina.com' }
     spec.source       = { :git => 'https://github.com/shijingsh/react-native-customized-image-picker.git' }
-    spec.source_files = 'ios/**/*.{h,m}'
+    spec.source_files = 'ios/UIImage-Resize/*.{h,m}'
     spec.summary = "this is a paaaackage"
 
     spec.dependency 'React'
